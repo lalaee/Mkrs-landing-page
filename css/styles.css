@@ -47,12 +47,13 @@ nav, #header-img {
 }
 
 #logo {
-	font-family: noto sans;
+	font-family: Playfair Display;
 	font-weight: 400;
 	margin-left: 70px;
 	margin-top: 20px;
-	font-size: 25px;
+	font-size: 30px;
 	width: 70px;
+	margin-bottom: 10px;
 }
 
 #logo-con {
@@ -64,7 +65,26 @@ li {
 	color: #000;
 }
 
-#landing-text {
-	font-family: Adamina;
-	font-size: 100px;
+
+#first-page {
+	margin: 0 30px;
+
+}
+
+
+.first-content-headline {
+	font-family: Playfair Display;
+	font-size: 3rem;
+	max-width: 14em;
+	font-weight: 100;
+	line-height: 45px;
+	margin-bottom: 19px;
+}
+
+p {
+	font-family: lato;
+	line-height: 25px;
+	letter-spacing: 0.5px;
+	margin-top: 0px;
+	margin-left: 0px;
 }
