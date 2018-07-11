@@ -4,6 +4,16 @@ html {
 
 }
 
+.subrow1:after,
+.row:after,
+.column:after,
+.subrow2:after,
+.u-cf {
+  content: "";
+  display: table;
+  clear: both; }
+
+
 
 body {
 	overflow: hidden;
@@ -98,7 +108,7 @@ li {
 }
 
 
-#first-page, #second-page, #third-page, #footer-section {
+#first-page, #second-page, #third-page, #footer-section, #Post-footer-section {
 	margin: 0 30px;
 
 }
@@ -125,6 +135,9 @@ li {
     -webkit-margin-after: 0em;
 }
 
+#footer-section {
+	padding-bottom: 50px;
+}
 
 	
 
@@ -246,6 +259,73 @@ button {
 	margin-left: 90px;
 }
 
-.row1 {
+.subrow1, .subrow2 {
 	opacity: 0.7;
+	float: left;
 }
+
+.subrow2 {
+	margin-top: 40px;
+}
+
+
+/* Media queries */
+
+/* For screens smaller than 320px */
+
+@media (max-width: 320px) {
+	button {
+		width: 250px;
+	}
+
+	#logo-row {
+		margin-right: 40px;
+	}
+
+	.column {
+    width: 60px;
+    float: left;
+    }
+
+    #contact-us {
+    	position: relative;
+    	left: 0px;
+    }
+}
+
+
+/* For screens larger than 425px */
+
+@media (min-width: 425px) {
+    #contact-us {
+    	position: relative;
+    	left: 25px;
+    }
+}
+
+
+/* For screens larger than 768px */
+
+@media (min-width: 768px) {
+
+    #mkrs-logo {
+    width: 5%;
+    left: 20px;
+    }
+
+    #logo {
+    	left: 20px;
+    }
+
+    .second-content-headline {
+    	margin-left: 70px;
+    }
+
+    #contact-us-text {
+       margin-left: 120px;
+    }
+}
+
+
+
+    
