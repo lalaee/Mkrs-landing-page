@@ -319,11 +319,66 @@ button {
 
     .second-content-headline {
     	margin-left: 70px;
+    	max-width: 12em;
+    	position: relative;
+    	left: 40px;
     }
 
     #contact-us-text {
        margin-left: 120px;
     }
+
+    #contact-us {
+    position: relative;
+    left: 175px;
+    }
+
+   .Clients-logo {
+    padding: 0 25px;
+    margin-left: 30px;
+    position: relative;
+    left: 13px;
+    margin-top: 0px;
+    }
+
+    .logos-list {
+	max-width: 20%;
+	text-align: center;
+	opacity: 0.5;
+	padding-bottom: 30px;
+	border-bottom: 0px solid #ebebeb;
+
+    }
+
+    #microsoft-logo, #nick-logo, #oracle-logo, #dropbox-logo {
+	max-width: 20%;
+	margin-top: 30px;
+	margin-left: 0px;
+    }
+
+    #microsoft-logo {
+    	max-width: 25%;
+    }
+
+    .row {
+    	position: relative;
+    	bottom: 90px;
+    	left: 170px;
+    }
+
+    .subrow2 {
+    margin-top: 0px;
+    margin-left: 30px;
+    }
+
+    #right-side {
+    margin-left: 30px;
+}
+
+   #footer-details {
+   	height: 70px;
+   }
+
 }
 
 
