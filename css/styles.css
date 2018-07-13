@@ -474,4 +474,113 @@ button {
     }
 
 }
+
+
+
+
+
+
+
+
+
+/* For screens larger than 1440px */
+
+@media (min-width: 1440px) {
+
+    #first-text-landing {
+    float: right;
+    width: 600px;
+    position: relative;
+    right: 1px;
+
+    }
+
+.first-content {
+	position: relative;
+	left: 39px;
+}
+
+.first-content-headline {
+    max-width: 19em;
+    height: 150px;
+    font-size: 5rem;
+    line-height: 80px;
+    }
+
+    p {
+    	width: 500px;
+    }
+
+    .second-content-headline {
+    left: 300px;
+    }
+
+    .Clients-logo {
+    left: 170px
+    }
+
+    #contact-us-text {
+    position: relative;
+    left: 200px;
+    }
+
+    .button2 {
+    margin-left: 330px;
+    }
+
+
+    .row {
+    	left: 850px;
+    }
+
+    #oracle-logo {
+    	margin-left: 190px;
+    }
+
+    #nick-logo {
+    	position: relative;
+    	bottom: 15px;
+    }
+
+}
+
+
+/* For screens larger than 1402px */
+
+@media (min-width: 1300px) {
+	#first-text-landing {
+    float: right;
+    width: 600px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    }
+
+    .first-content-image {
+    max-width: 50%;
+    margin-top: 50px;
+    position: relative;
+    left: 75px;
+    }
+
+ .brown-container {
+    padding-top: 40px;
+    margin: 0 30px;
+    position: relative;
+    left: 150px;
+    }
+
+    .second-content-headline {
+    left: 130px;
+    }
+
+#contact-us-text, .button2 {
+    position: relative;
+    left: 140px;
+   }
+
+   .row {
+    left: 700px;
+    }
     
+}
